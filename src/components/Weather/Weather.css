@@ -1,0 +1,98 @@
+.weather h1, .weather h2, .weather h3, .weather h4,
+.feel-box p, .feel-box h5, .feel-box i,
+.humidity h5, .humidity i, .humidity p,
+.wind h5, .wind i, .wind p,
+.sunrise h5, .sunrise i, .sunrise p,
+.time h5, .time i, .time p,
+.pressure h5, .pressure i, .pressure p
+{
+    position: relative;
+    color: white;
+    z-index: 2;
+}
+
+
+.weather h1 {
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+.weather h2 {
+    bottom: 50px;
+    font-size: 65px;
+    text-align: center;
+}
+
+.weather h3 {
+    bottom: 90px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.weather h4 {
+    bottom: 100px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.row1, .row2, .row3{
+    display: flex;
+}
+
+
+.feel-box p, .humidity p, .wind p, .sunrise p, .time p, .pressure p {
+    font-weight: 600;
+    left: 20px;
+    bottom: 25px;
+    font-size: 20px;
+}
+
+.feel-box h5, .humidity h5, .wind h5, .sunrise h5, .time h5, .pressure h5 {
+    left: 20px;
+    bottom: 10px;
+}
+
+.feel-box i, .humidity i, .wind i, .sunrise i, .time i, .pressure i{
+    right: 3px;
+    top: 2px;
+}
+
+
+.feel-box, .time {
+    position: relative;
+    bottom: 80px;
+    height: 80px;
+    width: 190px;
+    background-color: rgba(255, 227, 219, 0.58);
+    border-radius: 20px;
+    z-index: 2;
+}
+
+.feel-box, .wind, .sunrise {
+    right: 10px;
+}
+
+.humidity, .time, .pressure {
+    left: 10px;
+}
+
+.wind, .humidity {
+    position: relative;
+    bottom: 60px;
+    height: 80px;
+    width: 190px;
+    background-color: rgba(255, 227, 219, 0.58);
+    border-radius: 20px;
+    z-index: 2;
+}
+
+.sunrise, .pressure {
+    position: relative;
+    bottom: 40px;
+    height: 80px;
+    width: 190px;
+    background-color: rgba(255, 227, 219, 0.58);
+    border-radius: 20px;
+    z-index: 2;
+}
