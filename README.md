@@ -1,4 +1,4 @@
-# Weather
+# WeatherAPP
 
 A webpage that created by React, Javascript, html&css, OpenWeatherMap API. <br>
 Users can search city name, and will return the local time, temperature, max/min temperature, humidity, wind speed, sunrise and pressure of the specifiy city.
